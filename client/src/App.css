@@ -1,1 +1,9 @@
+ img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
  
+ .App {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
