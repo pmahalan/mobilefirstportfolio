@@ -1,9 +1,11 @@
 a:link {
-    color: turquoise;
+    /* color: turquoise; */
+    color: magenta;
   }
   
   a:visited {
-    color: magenta;
+    /* color: magenta; */
+    color:#FC6500;
   }
   
   a:hover {
@@ -18,6 +20,7 @@ img {
 
  h1, h2, h3, p {
      padding-left: 1em;
+     padding-right: 1em;
  }
  
  .App {
