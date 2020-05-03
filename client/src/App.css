@@ -1,7 +1,23 @@
- img {
+a:link {
+    color: turquoise;
+  }
+  
+  a:visited {
+    color: magenta;
+  }
+  
+  a:hover {
+    color: aqua;
+  }
+
+img {
      display: block;
      width: 100%;
      height: auto;
+ }
+
+ h1, h2, h3, p {
+     padding-left: 1em;
  }
  
  .App {
@@ -11,16 +27,35 @@
  .App-header {
      min-height: 450px;
      background: url("cool9.jpeg");
-     background-repeat: no-repeat;
+     color: white;
  }
 
  .App-header .bg-image {
     position: absolute;
     /* background: url("cool9.jpeg"); */
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     width: 100%;
     height: 450px;
     /* z-index: -1; */
  }
+
+ .littleheading {
+    font-size: 22px;
+    font-weight: bold;
+    color:#3a88fe;
+    text-align: center;
+ }
+
+ .maintext {
+    font-size: 18px;
+    text-align: center;
+ }
+
+ .blurbing {
+    font-size: 18px;
+}
+
+.relocation {
+    font-size: 18px;
+}
