@@ -23,7 +23,8 @@ constructor(props) {
     return (
 
     <div className="contactme">
-        <h2 className="contactheading">Contact Me</h2>
+      <br></br>
+        <h3 className="contactheading">Contact Me</h3>
 
         <form
         onSubmit={this.submitForm}
