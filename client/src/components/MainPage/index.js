@@ -38,10 +38,9 @@ function MainPage(props) {
     </div>    
 
 <div className="secondpart">
+<h1 className="recentprojects">Recent Projects</h1>
 
-    <h1 className="recentprojects">Recent Projects</h1>
-
-    <div className="asingleproject">
+    <div id="wrapper">
         <div className="projpart1">
             <h2 className="projecttitle1"> GLITTER </h2>
             <img className="projectpic" src={require('../../../src/new1.png')}></img>
@@ -60,15 +59,8 @@ function MainPage(props) {
 
     <br></br>
     &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
 
-    <div className="asingleproject2">
+    <div id="wrapper">
         <div className="projpart1">
             <h2 className="projecttitle"> Text Tracker </h2>
             <img className="projectpic" src={require('../../../src/new2.png')}></img>
@@ -85,15 +77,8 @@ function MainPage(props) {
 
     <br></br>
     &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
-    &emsp;
-    <br></br>
 
-    <div className="lastlistedproject">
+    <div id="wrapper">
         <div className="projpart1">
             <h2 className="projecttitle"> Profile Generator </h2>
             <img className="projectpic" src={require('../../../src/new4.png')}></img>
@@ -108,6 +93,7 @@ function MainPage(props) {
     </div>
 
     <br></br>
+    &emsp;
 
     </div>
     &emsp;
