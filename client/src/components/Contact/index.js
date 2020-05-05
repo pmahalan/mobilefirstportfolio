@@ -41,7 +41,8 @@ constructor(props) {
             // onChange={e => this.setState({ fname: e.target.value })}
         />
 
-        &emsp;
+        {/* &emsp; */}
+        <br></br>
 
         <label>Email </label>
         <input type="email"

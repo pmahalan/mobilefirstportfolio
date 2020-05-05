@@ -12,6 +12,11 @@ a:link {
     color: aqua;
   }
 
+  .hithere {
+      text-align: center;
+      padding-top: 40px;
+  }
+
 img {
      display: block;
      width: 100%;
@@ -21,6 +26,11 @@ img {
  h1, h2, h3, p {
      padding-left: 1em;
      padding-right: 1em;
+ }
+
+ .projectpic {
+    padding-left: 1em;
+    padding-right: 1em;
  }
  
  .App {
@@ -61,4 +71,16 @@ img {
 
 .relocation {
     font-size: 18px;
+}
+
+.mylinkslast {
+    /* padding-bottom: 100px; */
+}
+
+.projecttitle { 
+    font-size: 20px;
+}
+
+.recentprojects {
+    text-align: center;
 }

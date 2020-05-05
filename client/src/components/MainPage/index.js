@@ -33,10 +33,11 @@ function MainPage(props) {
         <p className="maintext"> <a className="mylinks" href="https://www.linkedin.com/in/priya-mahalanobis-75a103189">LinkedIn</a> </p>
         <p className="maintext"> <a className="mylinks" href="https://github.com/pmahalan">Git Hub</a> </p>
         <p className="maintext"> <a className="mylinks" href="Priya_M_Resume.pdf">Resume</a></p>
-        <p className="maintext"> <a className="mylinks" href="mailto:pmahalan@knights.ucf.edu">Email</a></p>
+        <p className="maintext"> <a className="mylinkslast" href="mailto:pmahalan@knights.ucf.edu">Email</a></p>
+        <p className="maintext"> <br></br> </p>
     </div>    
 
-<h2 className="recentprojects">Recent Projects</h2>
+<h1 className="recentprojects">Recent Projects</h1>
 
 <div className="asingleproject">
     <h2 className="projecttitle1"> GLITTER </h2>
@@ -62,6 +63,8 @@ function MainPage(props) {
         > https://github.com/pmahalan/GLITTER </a> </p>
 </div>
 
+<br></br>
+
 <div className="asingleproject2">
     <h2 className="projecttitle"> Text Tracker </h2>
     <img className="projectpic" src={require('../../../src/new2.png')}></img>
@@ -71,6 +74,8 @@ function MainPage(props) {
     <p className="projectlink"> GitHub: 
     <a className="mylinks2" href="https://github.com/pmahalan/Project_2"> https://github.com/pmahalan/Project_2 </a> </p>
 </div>
+
+<br></br>
 
 <div className="lastlistedproject">
     <h2 className="projecttitle"> Profile Generator </h2>
