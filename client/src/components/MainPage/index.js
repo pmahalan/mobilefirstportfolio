@@ -87,6 +87,8 @@ function MainPage(props) {
         <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator"> https://github.com/pmahalan/Node.js-Generator</a> </p>
 </div>
 
+<br></br>
+
 <ContactForm></ContactForm>
 
  </div>

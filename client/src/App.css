@@ -28,11 +28,20 @@ img {
      padding-right: 1em;
  }
 
+ .contactheading {
+     text-align: center;
+ }
+
  .projectpic {
     padding-left: 1em;
     padding-right: 1em;
  }
  
+.contactme {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
  .App {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
