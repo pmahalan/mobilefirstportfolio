@@ -76,10 +76,13 @@ img {
 
  .blurbing {
     font-size: 18px;
+    text-align: center;
 }
 
 .relocation {
     font-size: 18px;
+    font-style: italic;
+    text-align: center;
 }
 
 .mylinkslast {
@@ -94,7 +97,7 @@ img {
     text-align: center;
 }
 
-/* Media Queries */
+/* Media Query -- tablet */
 
 @media(min-width: 700px) {
 
@@ -119,3 +122,71 @@ padding-left: 0px;
 }
 
 }
+
+/* Media Query -- desktop */
+
+@media(min-width: 1024px) {
+
+    .blurbing {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }    
+
+    .relocation {
+        font-size: 16px;
+        font-style: italic;
+        padding-left: 30px;
+        padding-right: 30px;
+    }    
+
+    .littleheading {
+        font-size: 18px;
+    }
+
+    .maintext {
+        font-size: 16px;
+    }
+
+    .projectdescription {
+        font-size: 14px;
+    }
+
+    .projectlink {
+        font-size: 14px;
+    }
+
+    .mylinks2 {
+        font-size: 14px;
+    }
+
+    .mepic {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    img {
+        width: 400px;
+    } 
+
+    .App-header {
+        width: 35%;
+        float: left;
+    }
+    
+    .secondpart {
+        width: 65%;
+        float: right;
+    }
+    
+    .contactme {
+        width: 100%;
+        /* float: inline-end; */
+    }
+    
+    .contactheading {
+    text-align: left;
+    padding-left: 0px;
+    }
+    
+    }
