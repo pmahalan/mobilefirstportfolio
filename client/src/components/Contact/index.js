@@ -27,6 +27,7 @@ constructor(props) {
         <h3 className="contactheading">Contact Me</h3>
 
         <form
+        className="formclass"
         onSubmit={this.submitForm}
         action="https://formspree.io/xqkdnlga"
         method="POST"

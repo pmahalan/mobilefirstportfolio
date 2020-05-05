@@ -28,6 +28,12 @@ img {
      padding-right: 1em;
  }
 
+.formclass {
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
  .contactheading {
      text-align: center;
  }
