@@ -24,7 +24,7 @@ constructor(props) {
 
     <div className="contactme">
       <br></br>
-        <h3 className="contactheading">Contact Me</h3>
+        <h2 className="contactheading">Contact Me</h2>
 
         <form
         className="formclass"
@@ -70,7 +70,6 @@ constructor(props) {
             // value={this.state.message}
         ></textarea>
 
-        <br></br>
         <br></br>
 
         <input type="submit" 
