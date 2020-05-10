@@ -137,6 +137,12 @@ padding-left: 0px;
 
 @media(min-width: 1024px) {
 
+    .beginningofgrid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+
+    }
+
     .blurbing {
         font-size: 16px;
         padding-left: 30px;
@@ -175,9 +181,9 @@ padding-left: 0px;
         margin-left: 30px;
     }
 
-    img {
+    /* img {
         width: 400px;
-    } 
+    }  */
 
     .App-header {
         width: 35%;
@@ -190,8 +196,11 @@ padding-left: 0px;
     }
     
     .contactme {
-        width: 100%;
+        width: 60%;
         /* float: inline-end; */
+        display: grid;
+        margin-right: 0px;
+        float: right;
     }
     
     .contactheading {
