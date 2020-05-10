@@ -277,13 +277,31 @@ padding-left: 0px;
     }
     
     .contactme {
-        width: 100%;
+        width: 65%;
         /* float: inline-end; */
+        display: grid;
     }
     
     .contactheading {
     text-align: left;
     padding-left: 0px;
     }
+
+    .name {
+     padding-left: 20px;
+
+    }
     
+    .email {
+    padding-left: 20px;
+    }
+
+    .message {
+    padding-left: 20px;
+    }
+
+    .itybityformfield {
+        padding-left: 20px;
+    }
+
     }

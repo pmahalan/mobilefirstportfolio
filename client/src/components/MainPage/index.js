@@ -91,6 +91,23 @@ function MainPage(props) {
                         <p> <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator">&bull; GitHub</a> </p>
                 </div>
 
+                <div className="projpart1">
+                    <h2 className="projecttitle">Make Me Laugh </h2>
+                    <img className="projectpic" src={require('../../../src/new3.png')}></img>
+                </div>
+
+                <div className="projpart2">
+                <br></br>
+                <br></br>
+                <br></br>
+                    <p className="projectdescription"> A website utilizing AJAX calls to open-source joke and humor APIs, in addition to jQuery functions for filter-selection abilities.</p>
+                    {/* <p className="projectlink"> GitHub: */}
+                        <p> <a className="mylinks2" href="https://github.com/panamadan/Project1">&bull; GitHub</a> </p>
+                        <p> <a className="mylinks2" href="https://panamadan.github.io/Project1/">&bull; Website</a> </p>
+
+
+                </div>
+
         </div>
 
             <br></br>

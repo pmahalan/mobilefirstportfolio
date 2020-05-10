@@ -33,7 +33,7 @@ constructor(props) {
         method="POST"
       >
 
-        <label> Name </label>
+        <label className="name"> Name </label>
         <input type="text" 
         className="itybityformfield" 
         name="name"
@@ -46,7 +46,7 @@ constructor(props) {
         {/* &emsp; */}
         <br></br>
 
-        <label>Email </label>
+        <label className="email">Email </label>
         <input type="email"
         className="itybityformfield" 
         name="_replyto" 
@@ -59,7 +59,7 @@ constructor(props) {
         <br></br>
         <br></br>
 
-        <label>Message </label>
+        <label className="message">Message </label>
         <br></br>
         <textarea
         className="itybityformfield" 
