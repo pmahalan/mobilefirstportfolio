@@ -265,6 +265,7 @@ padding-left: 0px;
         width: 65%;
         float: right;
         display: grid;
+        grid-template-columns: 50% 50%;
     }
     
     .contactme {

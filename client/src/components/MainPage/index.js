@@ -42,17 +42,17 @@ function MainPage(props) {
 
                 <div className="projpart1">
                     <h2 className="projecttitle1"> GLITTER </h2>
-                    <img className="projectpic" src={require('../../../src/new1.png')}></img>
+                    {/* <img className="projectpic" src={require('../../../src/new1.png')}></img> */}
                 </div>
 
                 <div className="projpart2">
                     <p className="projectdescription"> A MERN application with functionality to create, read and delete 
                         notes pertaining to travel goals as part of a fun and inspirational personal dashboard. </p>
-                    <p className="projectlink"> Deployed Application: 
+                    {/* <p className="projectlink"> Deployed Application: 
                         <a className="mylinks2" href="https://arcane-retreat-34096.herokuapp.com/"> https://arcane-retreat-34096.herokuapp.com/</a> </p>
                     <p className="projectlink"> GitHub: 
                         <a className="mylinks2" href="https://github.com/pmahalan/GLITTER"
-                        > https://github.com/pmahalan/GLITTER </a> </p>
+                        > https://github.com/pmahalan/GLITTER </a> </p> */}
                 </div>        
 
             <br></br>
@@ -60,15 +60,15 @@ function MainPage(props) {
 
                 <div className="projpart1">
                     <h2 className="projecttitle"> Text Tracker </h2>
-                    <img className="projectpic" src={require('../../../src/new2.png')}></img>
+                    {/* <img className="projectpic" src={require('../../../src/new2.png')}></img> */}
                 </div>
 
                 <div className="projpart2">
                     <p className="projectdescription"> A full-stack application utilizing a webhook API to automate the storage of user information into a MySQL database. Provides users with CRUD functionality on a mobile-first UI.   </p>
-                    <p className="projectlink"> Deployed Application: 
+                    {/* <p className="projectlink"> Deployed Application: 
                     <a className="mylinks2" href="https://protected-thicket-21207.herokuapp.com/"> https://protected-thicket-21207.herokuapp.com/</a> </p>
                     <p className="projectlink"> GitHub: 
-                    <a className="mylinks2" href="https://github.com/pmahalan/Project_2"> https://github.com/pmahalan/Project_2 </a> </p>
+                    <a className="mylinks2" href="https://github.com/pmahalan/Project_2"> https://github.com/pmahalan/Project_2 </a> </p> */}
                 </div>
 
             <br></br>
@@ -76,14 +76,14 @@ function MainPage(props) {
 
                 <div className="projpart1">
                     <h2 className="projecttitle"> Profile Generator </h2>
-                    <img className="projectpic" src={require('../../../src/new4.png')}></img>
+                    {/* <img className="projectpic" src={require('../../../src/new4.png')}></img> */}
                 </div>
 
                 <div className="projpart2">
                     <p className="projectdescription"> A command-line application which renders an HTML page and a PDF document of a person’s GitHub profile information, through the use of the GitHub API as well as node.js packages such as Inquirer and Electron.
                         My first project using Node.js.</p>
-                    <p className="projectlink"> GitHub: 
-                        <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator"> https://github.com/pmahalan/Node.js-Generator</a> </p>
+                    {/* <p className="projectlink"> GitHub: 
+                        <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator"> https://github.com/pmahalan/Node.js-Generator</a> </p> */}
                 </div>
 
             <br></br>
