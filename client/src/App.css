@@ -131,7 +131,7 @@ padding-left: 0px;
 
 }
 
-/* Media Query -- desktop */
+/* Media Query -- 1024-1280 px */
 
 @media(min-width: 1024px) {
 
@@ -204,13 +204,13 @@ padding-left: 0px;
 @media(min-width: 1280px) {
 
     .projpart1 {
-        width: 50%;
-        float: right;
+        /* width: 50%;
+        float: right; */
     }
 
     .projpart2 {
-        width: 50%;
-        float: left;
+        /* width: 50%;
+        float: left; */
     }
 
     .blurbing {
@@ -264,6 +264,7 @@ padding-left: 0px;
     .secondpart {
         width: 65%;
         float: right;
+        display: grid;
     }
     
     .contactme {
