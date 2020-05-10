@@ -264,8 +264,12 @@ padding-left: 0px;
     .secondpart {
         width: 65%;
         float: right;
+    }
+
+    .beginningofgrid {
         display: grid;
         grid-template-columns: 50% 50%;
+
     }
     
     .contactme {

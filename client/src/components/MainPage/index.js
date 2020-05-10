@@ -38,7 +38,9 @@ function MainPage(props) {
     </div>    
 
 <div className="secondpart">
-        <h1 className="recentprojects">Recent Projects</h1>
+    <h1 className="recentprojects">Recent Projects</h1>
+
+            <div className="beginningofgrid">
 
                 <div className="projpart1">
                     <h2 className="projecttitle1"> GLITTER </h2>
@@ -85,6 +87,8 @@ function MainPage(props) {
                     {/* <p className="projectlink"> GitHub: 
                         <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator"> https://github.com/pmahalan/Node.js-Generator</a> </p> */}
                 </div>
+
+        </div>
 
             <br></br>
             &emsp;
