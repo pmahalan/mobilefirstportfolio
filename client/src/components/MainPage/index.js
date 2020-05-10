@@ -56,9 +56,9 @@ function MainPage(props) {
                         <a className="mylinks2" href="https://github.com/pmahalan/GLITTER"
                         > https://github.com/pmahalan/GLITTER </a> </p> */}
                 </div>        
-
+{/* 
             <br></br>
-            &emsp;
+            &emsp; */}
 
                 <div className="projpart1">
                     <h2 className="projecttitle"> Text Tracker </h2>
@@ -73,8 +73,8 @@ function MainPage(props) {
                     <a className="mylinks2" href="https://github.com/pmahalan/Project_2"> https://github.com/pmahalan/Project_2 </a> </p> */}
                 </div>
 
-            <br></br>
-            &emsp;
+            {/* <br></br>
+            &emsp; */}
 
                 <div className="projpart1">
                     <h2 className="projecttitle"> Profile Generator </h2>
