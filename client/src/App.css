@@ -236,19 +236,23 @@ padding-left: 0px;
 
     .projectdescription {
         font-size: 20px;
+        padding-left: 60px;
     }
 
     .projectlink {
         font-size: 20px;
+        padding-left: 60px;
     }
 
     .mylinks2 {
         font-size: 20px;
+        padding-left: 60px;
     }
 
     .mepic {
-        width: 400px;
-        margin-left: 20px;
+        /* width: 400px;
+        margin-left: 20px; */
+        width: 90%;
     }
 
     img {
@@ -262,13 +266,13 @@ padding-left: 0px;
     }
     
     .secondpart {
-        width: 65%;
+        width: 70%;
         float: right;
     }
 
     .beginningofgrid {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 60%;
 
     }
     
