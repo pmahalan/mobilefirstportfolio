@@ -139,7 +139,7 @@ padding-left: 0px;
 
     .beginningofgrid {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 40% 60%;
 
     }
 
@@ -166,14 +166,17 @@ padding-left: 0px;
 
     .projectdescription {
         font-size: 14px;
+        padding-left: 60px;
     }
 
     .projectlink {
         font-size: 14px;
+        padding-left: 60px;
     }
 
     .mylinks2 {
         font-size: 14px;
+        padding-left: 60px;
     }
 
     .mepic {
