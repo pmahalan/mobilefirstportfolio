@@ -35,7 +35,7 @@ constructor(props) {
 
         <label className="name"> Name </label>
         <input type="text" 
-        className="itybityformfield" 
+        className="nameformfield" 
         name="name"
         placeholder="Your name"
         style={{width: '35%'}}
@@ -48,7 +48,7 @@ constructor(props) {
 
         <label className="email">Email </label>
         <input type="email"
-        className="itybityformfield" 
+        className="emailformfield" 
         name="_replyto" 
         placeholder="Your email address"
         style={{width: '35%'}}
@@ -62,7 +62,7 @@ constructor(props) {
         <label className="message">Message </label>
         <br></br>
         <textarea
-        className="itybityformfield" 
+        className="messageformfield" 
         name="message"
         placeholder="Your message"
         style={{width: '90%', height: '120px'}}
