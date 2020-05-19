@@ -53,12 +53,11 @@ function MainPage(props) {
                     <br></br>
                     <p className="projectdescription"> A MERN application with functionality to create, read and delete 
                         notes pertaining to travel goals as part of a fun and inspirational personal dashboard. </p>
-                     {/* <p className="projectlink"> Deployed Application: */}
                        <p> <a className="mylinks2" href="https://arcane-retreat-34096.herokuapp.com/"> &bull; Deployed Application</a> </p>
-                    {/* <p className="projectlink"> GitHub: */}
                        <p> <a className="mylinks2" href="https://github.com/pmahalan/GLITTER"
                         > &bull; GitHub </a> </p>
                 </div>        
+
 
                 <div className="projpart1">
                     <h2 className="projecttitle"> Text Tracker </h2>
@@ -70,9 +69,7 @@ function MainPage(props) {
                 <br></br>
                 <br></br>
                     <p className="projectdescription"> A full-stack application utilizing a webhook API to automate the storage of user information into a MySQL database. Provides users with CRUD functionality on a mobile-first UI.   </p>
-                    {/* <p className="projectlink"> Deployed Application: */}
                     <p> <a className="mylinks2" href="https://protected-thicket-21207.herokuapp.com/">&bull; Deployed Application</a> </p>
-                    {/* <p className="projectlink"> GitHub: */}
                     <p> <a className="mylinks2" href="https://github.com/pmahalan/Project_2"> &bull; GitHub </a> </p>
                 </div>
 
@@ -87,7 +84,6 @@ function MainPage(props) {
                 <br></br>
                     <p className="projectdescription"> A command-line application which renders an HTML page and a PDF document of a person’s GitHub profile information, through the use of the GitHub API as well as node.js packages such as Inquirer and Electron.
                         My first project using Node.js.</p>
-                    {/* <p className="projectlink"> GitHub: */}
                         <p> <a className="mylinks2" href="https://github.com/pmahalan/Node.js-Generator">&bull; GitHub</a> </p>
                 </div>
 
@@ -101,7 +97,6 @@ function MainPage(props) {
                 <br></br>
                 <br></br>
                     <p className="projectdescription"> A website utilizing AJAX calls to open-source joke and humor APIs, in addition to jQuery functions for filter-selection abilities.</p>
-                    {/* <p className="projectlink"> GitHub: */}
                         <p> <a className="mylinks2" href="https://github.com/panamadan/Project1">&bull; GitHub</a> </p>
                         <p> <a className="mylinks2" href="https://panamadan.github.io/Project1/">&bull; Website</a> </p>
 
