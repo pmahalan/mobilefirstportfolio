@@ -32,7 +32,7 @@ function MainPage(props) {
 
         <p className="maintext"> <a className="mylinks" href="https://www.linkedin.com/in/priya-mahalanobis-75a103189">LinkedIn</a> </p>
         <p className="maintext"> <a className="mylinks" href="https://github.com/pmahalan">Git Hub</a> </p>
-        <p className="maintext"> <a className="mylinks" href="Priya_M_Resume.pdf">Resume</a></p>
+        <p className="maintext"> <a className="mylinks" href="../Priya_M_Resume.pdf">Resume</a></p>
         <p className="maintext"> <a className="mylinkslast" href="mailto:pmahalan@knights.ucf.edu">Email</a></p>
         <p className="maintext"> <br></br> </p>
     </div>    
